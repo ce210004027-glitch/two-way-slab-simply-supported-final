@@ -1,8 +1,10 @@
 import streamlit as st
 from two_way_designer import design_two_way
 st.title("Two-way slab designer (final)")
-st.markdown("**Manya Rajib Jain (210004027)**  
-**Dr. Akshay Pratap Singh**")
+st.markdown("**Manya Rajib Jain (210004027)**
+**Dr. Akshay Pratap Singh**
+Civil Engineering, IIT Indore")
+
 Lx=st.number_input("Lx",4.5)
 Ly=st.number_input("Ly",6.3)
 D=st.number_input("D (mm)",200)
